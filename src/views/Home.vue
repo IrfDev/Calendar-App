@@ -1,18 +1,29 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+ <main>
+<h1>
+
+</h1>
+<calendar-week/>
+<calendar-day/>
+<calendar-event/>
+<calendar-entry/>
+ </main>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import CalendarWeek from '@/components/Sections/CalendarWeek.vue';
+import CalendarDay from '@/components/Sections/CalendarDay.vue';
+import CalendarEntry from '@/components/Sections/CalendarEntry.vue';
+import CalendarEvent from '@/components/Ui/CalendarEvent.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+    CalendarWeek,
+    CalendarDay,
+    CalendarEntry,
+    CalendarEvent,
   },
 };
 </script>
