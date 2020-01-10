@@ -52,6 +52,5 @@ export const store = {
             event => event.details === e
         );
         dayTarget.events.splice(indexEventToRemove, 1)
-            // eventTarget.delete()
     }
 }

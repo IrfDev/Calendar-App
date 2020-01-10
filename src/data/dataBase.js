@@ -1,67 +1,51 @@
 /* eslint no-use-before-define: 0 */ // --> OFF
 export const dataBase = [{
         id: 0,
-        abbvTitle: 'Mon',
+        abbvTitle: 'M',
         fullTitle: 'Monday',
-        events: [{
-            details: 'Laught',
-            edit: false
-        }, {
-            details: 'Hehe',
-            edit: false
-        }, ],
+        events: [],
         active: false,
     },
     {
         id: 1,
-        abbvTitle: 'Ths',
+        abbvTitle: 'Th',
         fullTitle: 'Thursday',
-        events: [{
-            details: 'Laught',
-            edit: false
-        }, {
-            details: 'Hehe',
-            edit: false
-        }, ],
+        events: [],
         active: true,
     },
     {
         id: 2,
-        abbvTitle: 'Wednsday',
+        abbvTitle: 'W',
         fullTitle: 'Wednsday',
-        events: [{
-            details: 'Laught',
-            edit: false
-        }, {
-            details: 'Hehe',
-            edit: false
-        }, ],
+        events: [],
         active: false,
     },
     {
         id: 3,
-        abbvTitle: 'Ths',
-        fullTitle: 'Thursday',
-        events: [{
-            details: 'Laught',
-            edit: false
-        }, {
-            details: 'Hehe',
-            edit: false
-        }, ],
+        abbvTitle: 'Tu',
+        fullTitle: 'Tuesday',
+        events: [],
         active: false,
     },
     {
         id: 4,
-        abbvTitle: 'Fri',
+        abbvTitle: 'F',
         fullTitle: 'Friday',
-        events: [{
-            details: 'Laught',
-            edit: false
-        }, {
-            details: 'Hehe',
-            edit: false
-        }, ],
+        events: [],
+        active: false,
+    },
+    {
+        id: 5,
+        abbvTitle: 'Sa',
+        fullTitle: 'Saturday',
+        events: [],
+        active: false,
+    },
+    {
+        id: 6,
+        abbvTitle: 'Su',
+        fullTitle: 'Sunday',
+        events: [],
         active: false,
     },
 ]
