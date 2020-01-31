@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import NavBar from '@/components/Ui/NavBar.vue';
-import Divider from '@/components/Ui/Divider.vue';
+import NavBar from '@/components/calendar-app/Ui/NavBar.vue';
+import Divider from '@/components/calendar-app/Ui/Divider.vue';
 
 export default {
   name: 'HeroHeader',
@@ -35,7 +35,7 @@ main{
         height: 421px;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%,
          rgba(0, 0, 0, 0.68) 100%),
-         url(../../assets/hero-header-banner.jpg),  #C4C4C4;
+         url(../../../assets/hero-header-banner.jpg),  #C4C4C4;
          background-size: cover;
          background-position: 0% 100%;
         box-shadow: 5px 4px 13px rgba(0, 0, 0, 0.25);

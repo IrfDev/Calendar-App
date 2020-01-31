@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
+import TaskManager from '@/views/TaskManager.vue';
 import About from '../views/About.vue';
 
 Vue.use(VueRouter);
@@ -8,6 +9,16 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: '/',
+    name: 'TaskManager',
+    component: TaskManager,
+  },
+  {
+    path: '/',
+    name: 'TaskManager',
+    component: TaskManager,
+  },
+  {
+    path: '/home',
     name: 'home',
     component: Home,
   },

@@ -15,11 +15,11 @@
 </template>
 
 <script>
-import HeroHeader from '@/components/Sections/HeroHeader.vue';
-import CalendarWeek from '@/components/Sections/CalendarWeek.vue';
-import CalendarDay from '@/components/Sections/CalendarDay.vue';
-import CalendarEntry from '@/components/Sections/CalendarEntry.vue';
-import CalendarEvent from '@/components/Ui/CalendarEvent.vue';
+import HeroHeader from '@/components/calendar-app/Sections/HeroHeader.vue';
+import CalendarWeek from '@/components/calendar-app/Sections/CalendarWeek.vue';
+import CalendarDay from '@/components/calendar-app/Sections/CalendarDay.vue';
+import CalendarEntry from '@/components/calendar-app/Sections/CalendarEntry.vue';
+import CalendarEvent from '@/components/calendar-app/Ui/CalendarEvent.vue';
 
 export default {
   name: 'home',
