@@ -7,11 +7,7 @@ import About from '../views/About.vue';
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: '/',
-    name: 'TaskManager',
-    component: TaskManager,
-  },
+
   {
     path: '/',
     name: 'TaskManager',
