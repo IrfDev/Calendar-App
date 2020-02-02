@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+<div class="container">
     <div class="row">
       <div class="col">
         <h1>
@@ -34,8 +34,8 @@
         </tbody>
       </table>
     </div>
-   </div>
   </div>
+</div>
 </template>
 
 <script>
