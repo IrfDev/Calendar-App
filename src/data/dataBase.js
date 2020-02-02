@@ -1,0 +1,51 @@
+/* eslint no-use-before-define: 0 */ // --> OFF
+export const dataBase = [{
+        id: 0,
+        abbvTitle: 'M',
+        fullTitle: 'Monday',
+        events: [],
+        active: false,
+    },
+    {
+        id: 1,
+        abbvTitle: 'Th',
+        fullTitle: 'Thursday',
+        events: [],
+        active: true,
+    },
+    {
+        id: 2,
+        abbvTitle: 'W',
+        fullTitle: 'Wednsday',
+        events: [],
+        active: false,
+    },
+    {
+        id: 3,
+        abbvTitle: 'Tu',
+        fullTitle: 'Tuesday',
+        events: [],
+        active: false,
+    },
+    {
+        id: 4,
+        abbvTitle: 'F',
+        fullTitle: 'Friday',
+        events: [],
+        active: false,
+    },
+    {
+        id: 5,
+        abbvTitle: 'Sa',
+        fullTitle: 'Saturday',
+        events: [],
+        active: false,
+    },
+    {
+        id: 6,
+        abbvTitle: 'Su',
+        fullTitle: 'Sunday',
+        events: [],
+        active: false,
+    },
+]
